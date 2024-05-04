@@ -23,7 +23,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Ao se desenvolver um banco de dados, a primeira etapa é a sua modelagem, ou seja, a construção do modelo entidade-relacionamento e do modelo físico desse banco de dados. A modelagem é uma etapa muito importante do processo, pois é nela onde são definidas as tabelas que usaremos, quais dados pretendemos guardar, e como diferentes tabelas se relacionam entre si. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Falando em relacionamentos, é aí que entra o modelo relacionamento entidade. Basicamente, tabelas podem se relacionar de maneiras diferentes. O relacionamento 1:n (um para muitos) indica que um registro de uma tabela pode se relacionar com muitos de outras tabelas. Já o relacionamento n:n indica que muitos registros de uma tabela se relacionam com muitos registros de outras tabelas.
 
-#### 1.1.1 Modelo Entidade no nosso projeto:
+#### 1.1.1 Modelo Entidade Relacionamento no nosso projeto:
 &nbsp;&nbsp;&nbsp;&nbsp;O projeto que estamos desenvolvendo atualmente é uma plataforma web que tem o propósito de intermediar relações entre voluntários e organizações sociais, a fim de tornar mais fácil que representantes de organizações sociais encontrem voluntariado para as suas ações sociais. De acordo com isso e alguns requisitos feitos pelo parceiro, identificamos alguns pontos de relacionamentos entre tabelas no nosso banco de dados. Por exemplo, será necessário ter uma tabela para armazenar os usuários e outra para armazenar as ações sociais. Como um usuário pode estar em várias ações e uma ação pode ter vários usuários, este é um exemplo de relacionamento n:n. 
 
 #### 1.1.2 Problemas com relacionamentos n:n:
