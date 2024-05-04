@@ -50,7 +50,7 @@
 * usuario_por_acao: Esta é a tal tabela de normalização que mencionei anteriormente. É por meio dela e apenas dela que as tabelas de usuários e ações se relacionam. Por meio da combinação das duas chaves primárias das tabelas principais, esta tabela consegue relacionar com eficiência quaisquer usuários que pertençam a quaisquer ações. 
 
 ### 2.2 Relações:
-&nbsp;&nbsp;&nbsp;&nbsp;As relações nestas tabelas são ligeiramente simples. A única relação n:n que possuímos é a de usuários por projetos, e esta é "administrada" pela tabela intermediária usuario_por_acao. Além disso, temos a tabela de convite com 3 chaves estrangeiras, duas para usuários e uma para a ação em questão. Por fim, a tabela acao_relacioada estabelece um relacionamento 1:n, uma vez que um usuário pode registrar muitas ações. 
+&nbsp;&nbsp;&nbsp;&nbsp;As relações nestas tabelas são ligeiramente simples. A única relação n:n que possuímos é a de usuários por projetos, e esta é "administrada" pela tabela intermediária usuario_por_acao. Além disso, temos a tabela de convite com 3 chaves estrangeiras, duas para usuários e uma para a ação em questão. Por fim, a tabela acao_realizada estabelece um relacionamento 1:n, uma vez que um usuário pode registrar muitas ações. 
 
 ## 3. Conclusões
 &nbsp;&nbsp;&nbsp;&nbsp;Por fim, você pode acessar e visualizar mais detalhadamente as tabelas e relacionamentos por meio do arquivo .xml presente neste repositório. Copie o conteúdo deste arquivo e cole-o no campo de input de xml no site <a href="https://sql.toad.cz/?keyword=online_library">SQL Designer</a>
